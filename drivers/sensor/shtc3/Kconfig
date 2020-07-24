@@ -1,0 +1,8 @@
+# Copyright (c) 2020 IMD Technologies
+# SPDX-License-Identifier: Apache-2.0
+
+config SHTC3
+	bool "SHTC3 Temperature & Humidity Sensor"
+	depends on I2C && HAS_DTS_I2C
+	help
+	  Enable the driver for Sensirion's SHTC3 temperature and humidity sensor

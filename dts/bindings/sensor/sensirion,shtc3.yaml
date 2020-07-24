@@ -1,0 +1,8 @@
+# Copyright (c) 2018, Peter Bigot Consulting, LLC
+# SPDX-License-Identifier: Apache-2.0
+
+description: Sensirion SHT3C humidity and temperature sensor
+
+compatible: "sensirion,shtc3"
+
+include: i2c-device.yaml
